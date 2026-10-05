@@ -63,4 +63,20 @@ nav ul {
     color: white;
     padding: 12px 20px;
     text-decoration: none;
+}.intro {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f5f2e9;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #18352b;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    max-width: 700px;
+    margin: 0 auto 15px;
+    line-height: 1.6;
 }
