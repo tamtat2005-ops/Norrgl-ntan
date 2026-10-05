@@ -174,10 +174,17 @@ footer a {
 
 footer div {
     margin-bottom: 20px;
-}@media (min-width: 700px) {
-        nav ul {
+}
+@media (min-width: 700px) {
+
+    .menu-button {
+        display: none;
+    }
+
+    nav ul {
         flex-direction: row;
         gap: 30px;
+    
     }
     header {
         padding: 20px 40px;
@@ -215,8 +222,18 @@ footer img {
     width: 80px;
 }
 @media (max-width: 699px) {
+
+    .menu-button {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
     header {
         padding: 20px;
+    
     }
 
     header > div {
