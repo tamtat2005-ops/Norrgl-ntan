@@ -200,4 +200,10 @@ footer div {
         gap: 40px;
         padding: 60px;
     }
+}header img {
+    width: 80px;
+}
+
+footer img {
+    width: 80px;
 }
