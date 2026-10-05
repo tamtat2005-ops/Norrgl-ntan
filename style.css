@@ -168,4 +168,33 @@ footer a {
 
 footer div {
     margin-bottom: 20px;
+}@media (min-width: 700px) {
+    header {
+        padding: 20px 40px;
+    }
+
+    .hero > div {
+        left: 60px;
+        max-width: 550px;
+    }
+
+    .activity-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .planning {
+        text-align: left;
+        padding: 80px 60px;
+    }
+
+    .planning p {
+        margin-left: 0;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        padding: 60px;
+    }
 }
