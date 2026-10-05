@@ -112,4 +112,12 @@ Ibland är det bästa äventyret det som inte är planerat. Utforska skogar och 
         <a href="#hitta-hit">Hitta hit</a>
     </div>
 </footer>
+<script>
+    const menuButton = document.querySelector(".menu-button");
+    const nav = document.querySelector("nav");
+
+    menuButton.addEventListener("click", function () {
+        nav.classList.toggle("open");
+    });
+</script>
 </body>

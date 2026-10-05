@@ -221,15 +221,15 @@ footer div {
 footer img {
     width: 80px;
 }
-@media (max-width: 699px) {
-
-    .menu-button {
-        display: block;
-    }
+ @media (max-width: 699px) {
 
     nav {
-        display: none;
-    }
+    display: none;
+}
+
+nav.open {
+    display: block;
+}
 
     header {
         padding: 20px;
