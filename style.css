@@ -162,9 +162,12 @@ footer h3 {
 }
 
 footer a {
+    display: block;
     color: white;
     text-decoration: none;
+    margin-bottom: 10px;
 }
+
 
 footer div {
     margin-bottom: 20px;
@@ -197,8 +200,4 @@ footer div {
         gap: 40px;
         padding: 60px;
     }
-}
-nav ul {
-    flex-direction: column;
-    align-items: center;
 }
