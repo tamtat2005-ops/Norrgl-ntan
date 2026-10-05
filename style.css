@@ -127,4 +127,27 @@ nav ul {
 }.activity-card h3 {
     color: #18352b;
     margin: 15px 20px 10px;
+}.planning {
+    padding: 60px 20px;
+    background-color: #e7dfd0;
+    text-align: center;
+}
+
+.planning h2 {
+    color: #18352b;
+    margin-bottom: 20px;
+}
+
+.planning p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+}
+
+.planning a {
+    display: inline-block;
+    background-color: #18352b;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
 }
