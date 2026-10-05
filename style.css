@@ -224,11 +224,11 @@ footer img {
  @media (max-width: 699px) {
 
     nav {
-    display: none;
+    display: none !important;
 }
 
 nav.open {
-    display: block;
+    display: block !important;
 }
 
     header {
