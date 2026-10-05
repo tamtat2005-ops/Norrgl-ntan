@@ -150,4 +150,22 @@ nav ul {
     color: white;
     padding: 12px 20px;
     text-decoration: none;
+}footer {
+    background-color: #18352b;
+    color: white;
+    padding: 40px 20px;
+}
+
+footer h2,
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer div {
+    margin-bottom: 20px;
 }
