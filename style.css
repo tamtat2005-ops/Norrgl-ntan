@@ -220,7 +220,7 @@ footer div {
 
 footer img {
     width: 80px;
-}
+}/* Responsive mobile layout */
  @media (max-width: 699px) {
 
     nav {
